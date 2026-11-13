@@ -27,6 +27,11 @@ TaskPulse is designed for people who want a lightweight, fast, and private produ
 - Progressive Web App support for installable mobile-style usage
 - Android build pipeline via Capacitor
 
+## Screenshot
+
+<img width="328" height="589" alt="image" src="https://github.com/user-attachments/assets/dcece7ce-e058-44f7-8c91-7703e88a1b02" />
+
+
 ## Tech Stack
 
 - React 19 + TypeScript
