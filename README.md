@@ -156,7 +156,7 @@ Contributions are welcome. To propose improvements:
 
 ## License
 
-This project is currently distributed without a formal license file. If you plan to reuse or distribute the code, confirm the licensing terms before publishing or shipping it.
+Apache 2.0
 
 ## Notes
 
