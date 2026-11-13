@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="flutterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container with smooth squircle for Android -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#6366f1" stroke-width="6" stroke-opacity="0.3" />
+
+  <!-- Flutter wing shapes -->
+  <path d="M140 120 L270 250 L140 380 L200 380 L330 250 L200 120 Z" fill="url(#flutterGrad)" />
+  <path d="M260 250 L330 320 L390 320 L290 220 Z" fill="#38bdf8" opacity="0.9" />
+  <path d="M290 280 L390 380 L330 380 L260 310 Z" fill="#0284c7" />
+
+  <!-- Checkmark badge in bottom corner -->
+  <circle cx="370" cy="370" r="74" fill="#0f172a" stroke="#10b981" stroke-width="10" />
+  <path d="M344 370 L364 390 L400 350" fill="none" stroke="url(#checkGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

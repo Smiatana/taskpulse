@@ -1,0 +1,6 @@
+{
+  "name": "TaskPulse Flutter — Разумныя чэк-лісты",
+  "description": "Аўтаномныя лакальныя чэк-лісты з размеркаваннем задач па днях, дакладным часам, разумным парсерам і тэлефоннымі апавяшчэннямі ў стылі Flutter Material 3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
